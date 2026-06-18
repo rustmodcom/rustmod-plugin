@@ -1,35 +1,35 @@
 # RustMod
 
-Плагин для Rust-сервера.
+Rust server plugin.
 
-Панель управления: https://rustmod.com/hub
+Control panel: https://rustmod.com/hub
 
-## Установка
+## Installation
 
-1. Скачайте `RustMod.cs`.
-2. Поместите файл в папку сервера:
+1. Download `RustMod.cs`.
+2. Put the file into your server plugins folder:
 
 ```text
 oxide/plugins/RustMod.cs
 ```
 
-3. Перезапустите сервер или выполните:
+3. Restart the server or run:
 
 ```text
 oxide.reload RustMod
 ```
 
-4. Откройте панель управления:
+4. Open the control panel:
 
 ```text
 https://rustmod.com/hub
 ```
 
-5. Создайте проект и сервер, скопируйте код привязки.
-6. В консоли Rust-сервера выполните:
+5. Create a project and server, then copy the verification code.
+6. Run this command in the Rust server console:
 
 ```text
-rustmod.verify <код>
+rustmod.verify <code>
 ```
 
-Токен сохранится в конфиге автоматически.
+The plugin token will be saved to the config automatically.
